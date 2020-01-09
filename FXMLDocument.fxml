@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" onMouseClicked="#onMouseClicked" onMouseMoved="#onMouseMoved" prefHeight="800.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="spaceinvader.FXMLDocumentController">
+   <children>
+      <Label fx:id="resultLabel" alignment="CENTER" layoutX="200.0" layoutY="259.0" prefHeight="300.0" prefWidth="700.0" textFill="#44bf39">
+         <font>
+            <Font name="Impact" size="85.0" />
+         </font>
+      </Label>
+      <Label fx:id="livesLabel" layoutX="2.0" layoutY="6.0" prefHeight="36.0" prefWidth="118.0" text="LIVES" textFill="#cd102f">
+         <font>
+            <Font name="Franklin Gothic Medium Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" layoutX="2.0" layoutY="42.0" prefHeight="30.0" prefWidth="118.0" text="SCORE" textFill="#0cb7f0">
+         <font>
+            <Font name="Franklin Gothic Medium Italic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
